@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/happyFragment">
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.myapplication.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/happyFragment"
+        android:name="com.example.myapplication.HappyFragment"
+        android:label="fragment_happy"
+        tools:layout="@layout/fragment_happy" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="com.example.myapplication.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+</navigation>
